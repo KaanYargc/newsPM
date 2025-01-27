@@ -1,0 +1,15 @@
+name: news
+version: 0.0.1
+main: yargc\news\Main
+api: 5.24.0
+src-namespace-prefix: yargc\news
+
+commands:
+  news:
+    description: "Get the latest news"
+    usage: "/news"
+    permission: "news.command.news"
+permissions:
+    news.command.news:
+      description: "Allows access to the /news command"
+      default: true
